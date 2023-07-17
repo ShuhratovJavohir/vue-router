@@ -1,0 +1,37 @@
+@import "./all.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.one {
+  &-list {
+    display: flex;
+    gap: 30px;
+  }
+}
+
+.crumbs{
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: rgba(35, 40, 81, 0.5);
+} 

@@ -1,0 +1,23 @@
+.cars{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  
+  &__item{
+    max-width: 300px;
+    border: 1px solid rgb(35, 40, 81);
+    padding: 15px;
+    
+    &-title{
+      font-size: 24px;
+      font-weight: 500;
+      color: rgb(35, 40, 81);
+      margin: 10px 0;
+    }
+    
+    &-img{
+      width: 250px;
+    }
+  }
+}

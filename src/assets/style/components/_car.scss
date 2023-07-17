@@ -1,0 +1,23 @@
+.car{
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  
+  &__left{
+    
+    &-title{
+      font-size: 36px;
+      color: rgb(35, 40, 81);
+      margin-bottom: 10px;
+    }
+    
+    &-text{
+      line-height: 24px;
+    }
+  }
+  
+  &-img{
+    width: 700px;
+  }
+}
+

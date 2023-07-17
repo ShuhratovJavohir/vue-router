@@ -1,0 +1,32 @@
+.header{
+  background-color: rgb(35, 40, 81);
+  padding: 20px 0;
+  
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &-logo{
+      font-size: 24px;
+      font-weight: 500;
+      color: #fff;
+    }
+    
+    &-list{
+      display: flex;
+      gap: 30px;
+    }
+    
+    &-link{
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      text-transform: uppercase;
+      
+      &.router-link-active{
+        color: red;
+      }
+    }
+  }
+}
