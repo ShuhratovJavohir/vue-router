@@ -18,6 +18,6 @@ export default {
       {path: '/cars', name: 'Cars'}, 
     ]
     }
-  }
+  },
 };
 </script>
